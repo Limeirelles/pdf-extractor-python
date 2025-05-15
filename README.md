@@ -1,3 +1,5 @@
+
+
 # Extração de Texto de PDFs com Python 📄🔍
 
 Este projeto permite extrair texto de arquivos PDF e salvá-los automaticamente em `.txt` ou `.docx`.  
@@ -69,6 +71,7 @@ Isso criará um documento resultado.docx com o conteúdo extraído do PDF.
 
 💡 Gostou do projeto? Faça um fork, contribua ou deixe uma estrela! 🌟
 📢 Me siga no www.linkedin.com/in/olimpiomeirelles 😃
+
 
 
 
