@@ -1,0 +1,9 @@
+# Ignorar arquivos PDF
+*.pdf
+
+# Ignorar arquivos de teste
+*.txt
+*.docx
+
+# Ignorar a pasta do ambiente virtual
+venv/
