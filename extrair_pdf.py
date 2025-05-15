@@ -1,4 +1,6 @@
 import PyPDF2
+import config
+
 
 def extrair_texto(pdf_path):
     with open(pdf_path, "rb") as pdf_file:
@@ -7,5 +9,5 @@ def extrair_texto(pdf_path):
     return texto
 
 
-texto_extraido = extrair_texto("C:\\Users\\onmmk\\OneDrive\\Projetos_Dev\\projeto_pdf\\arquivos\\o_pequeno_principe.pdf")
-print(texto_extraido)  # Agora podemos usar o resultado como quisermos!
+texto_extraido = extrair_texto(config.PDF_FILE)
+print(texto_extraido) # Agora podemos usar o resultado como quisermos!
